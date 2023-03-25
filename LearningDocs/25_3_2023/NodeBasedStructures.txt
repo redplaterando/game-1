@@ -1,0 +1,41 @@
+"Linked List" "Head" -> Node1
+
+Node1
+int = 1
+next = Node2
+
+Node2
+int = 2
+next = None
+
+"binary tree"
+
+      /9 
+    8
+  /   \7
+5
+  \  /4
+   3 
+     \2
+
+GODOT is a tree
+Main Node
+    Platforms
+        Platform1
+        Platform2
+        ...
+    BallScene
+    KillZoneScene
+    WinZone
+    LeftWall
+    RightWall
+
+BallScene
+    TransformNode
+    Physics2DNode
+    PlayerBehaviorScriptNode
+
+KillZoneScene
+    TransformNode
+    Collider2DNode
+    KillZoneScriptNode
